@@ -1,6 +1,6 @@
 <?php
 
-namespace Cmslz\QrcodeReader;
+namespace Cmslz\QrcodeReader\Common;
 
 abstract class Barbarize
 {
@@ -21,7 +21,7 @@ abstract class Barbarize
 
     public abstract function getBlackMatrix();
 
-    public abstract function createBinarizer($source);
+    public abstract function createBarbarize($source);
 
     public final function getWidth()
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Cmslz\QrcodeReader\Common\CharacterSetEci\AbstractEnum;
+namespace Cmslz\QrcodeReader\Common;
 
 use ReflectionClass;
 
