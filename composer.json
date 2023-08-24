@@ -1,0 +1,19 @@
+{
+    "name": "cmslz/qrcode-reader",
+    "description": "PHP二维码解析",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Cmslz\\QrcodeReader\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "cmslz"
+        }
+    ],
+    "require": {
+        "php": ">=5.3"
+    }
+}
